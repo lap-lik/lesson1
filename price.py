@@ -16,7 +16,7 @@ print('')#разделение
 
 # Задание - Функции
 def get_summ(one, two, delimiter='&'):
-    summ = one + delimiter + two
+    summ = str(one).upper() + str(delimiter) + str(two).upper()
     return summ
 x = get_summ('Learn', 'python')
 print(x)
